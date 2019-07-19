@@ -1,12 +1,14 @@
 Package: EICVIstac
-Title: An Amazing Shiny App
+Title: Survey of income and living conditions of Canarian households
 Version: 0.0.0.9000
-Authors@R: person("Vincent", "Guyader", email = "vincent@thinkr.fr", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: What license is it under?
+Authors@R: person("Jorge", "López Pérez", email = "jorge@loperez.com", role = c("aut", "cre"))
+Description: The Survey of Income and Living Conditions of Canarian Households provides information on the most relevant social characteristics of Canarian households.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: 
+Imports:
     shiny, 
     golem
 RoxygenNote: 6.1.1
+URL: https://github.com/jlopezper/EICVIstac
+BugReports: https://github.com/jlopezper/EICVIstac/issues

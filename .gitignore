@@ -2,3 +2,5 @@
 .RData
 .Rproj.user
 tmp/
+.DS_Store
+data/

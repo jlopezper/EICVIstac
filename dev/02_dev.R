@@ -7,12 +7,12 @@
 
 ## 2.1 Add modules
 ## 
-golem::add_module( name = "my_first_module" ) # Name of the module
+golem::add_module( name = "categorical_plot" ) # Name of the module
 golem::add_module( name = "my_other_module" ) # Name of the module
 
 ## 2.2 Add dependencies
 
-usethis::use_package( "thinkr" ) # To call each time you need a new package
+usethis::use_package("shinythemes") # To call each time you need a new package
 
 ## 2.3 Add tests
 
@@ -26,7 +26,7 @@ golem::browser_button()
 
 golem::add_js_file( "script" )
 golem::add_js_handler( "handlers" )
-golem::add_css_file( "custom" )
+golem::add_css_file( "bootstrap.min.css" )
 
 # 3. Documentation
 
